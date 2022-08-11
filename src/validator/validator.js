@@ -6,12 +6,6 @@ exports.taskValidator = [
     .isString()
     .notEmpty()
     .withMessage("The field must be not empty !!!"),
-  
-  check("date")
-    .trim()
-    .isEmpty()
-    .isString()
-    .withMessage("Indvalid field input"),
 
   check("cost")
     .trim()
